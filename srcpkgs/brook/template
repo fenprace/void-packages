@@ -1,0 +1,13 @@
+# Template file for 'brook'
+pkgname=brook
+version=20210701
+revision=1
+build_style=go
+go_import_path="github.com/txthinking/brook"
+go_package="$go_import_path/cli/brook"
+short_desc="Cross-platform strong encryption and not detectable proxy"
+maintainer="Zhuo FENG <fenprace.i@gmail.com>"
+license="GPL-3.0-or-later"
+homepage="https://txthinking.github.io/brook/"
+distfiles="https://github.com/txthinking/brook/archive/refs/tags/v$version.tar.gz"
+checksum=92c2253349af05ea5aa7a45cddd39ca638c732b2ffdb5066a5f03d2df40cb0b5
